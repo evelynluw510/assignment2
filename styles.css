@@ -1,0 +1,50 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+/* Fullpage Sections */
+.section {
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white; /* Ensures text is readable on images */
+}
+
+/* Text Overlay Styling */
+.text-overlay {
+  
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.text-overlay h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-overlay {
+        padding: 15px 25px;
+        max-width: 90%;
+    }
+    
+    .text-overlay h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
